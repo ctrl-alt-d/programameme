@@ -1,0 +1,21 @@
+{
+    "configurations": [
+    {
+        "name": "(lldb) Launch",
+        "type": "cppdbg",
+        "request": "launch",
+        "program": "${workspaceFolder}/src/p112",
+        "args": [],
+        "stopAtEntry": false,
+        "cwd": "${workspaceFolder}/src",
+        "environment": [],
+        "externalConsole": false,
+        "MIMode": "lldb",
+        "setupCommands": [
+            {
+                "text": "settings set target.input-path ${workspaceFolder}/src/p112.txt"
+            }
+        ]
+    }
+    ]
+}
