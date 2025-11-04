@@ -217,8 +217,9 @@ int main() {
 
 ## El meu primer programa
 
-Programes que podem fer avui:
+Programes que podem fer avui i pel proper dia:
 
 * https://aceptaelreto.com/problem/statement.php?id=116&cat=5
 * https://aceptaelreto.com/problem/statement.php?id=217&cat=5
 * https://aceptaelreto.com/problem/statement.php?id=112&cat=5
+* https://aceptaelreto.com/problem/statement.php?id=373
