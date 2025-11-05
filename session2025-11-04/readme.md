@@ -1,6 +1,5 @@
 # Benviguts a la desesperació i a la dopamina
 
-
 ![Sessió 1, discord](./sessio.png)
 
 ## Que necessitem?
@@ -17,11 +16,14 @@ Hem decidit que el llenguatge `c++` serà el llenguatge oficial per a `programam
 
 1. Descarrega i instal·la **MSYS2** des de: https://www.msys2.org/
 2. Obre la terminal MSYS2 i executa:
+
    ```bash
    pacman -S mingw-w64-x86_64-gcc
    ```
+
 3. Afegeix `C:\msys64\mingw64\bin` al PATH del sistema
 4. Verifica la instal·lació obrint CMD o PowerShell:
+
    ```bash
    g++ --version
    ```
