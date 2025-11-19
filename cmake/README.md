@@ -2,9 +2,13 @@
 
 ## CMake
 
-Cmake (cross-platform make) és una eina de desenvolupament de programari gratuïta i multiplataforma per crear aplicacions mitjançant instruccions independents del compilador. També pot automatitzar proves, embalatge i instal·lació.
+Cmake (cross-platform make) és una eina de desenvolupament de programari gratuïta i multiplataforma per crear aplicacions mitjançant instruccions independents del compilador.
 
-La clau de CMake és que no intenta ser un sistema de construcció sinó que simplement fa servir algun sistema existent. (Make, Visual Studio, Ninja, Qt, ...). També es pot fer servir per compilar, executar proves unitàries (CTest) i generar paquets (CPack)
+- Pot automatitzar proves, embalatge i instal·lació. 
+- Suporta una gran quantitat de sistemes: Windows, Linux, IOS, Android, OS2, BSDOS, DOS, OpenBSD, SunOS, etc.
+- Tot i que per defecte funciona amb C i C++ es pot usar en diferents llenguatges de programació: C, C++, CSharp, CUDA, Objective-C, Fortran, HIP, ISPC, Swift, ASM
+
+La clau de CMake és que no intenta ser un sistema de construcció sinó que simplement fa servir algun sistema existent. (Make, Visual Studio, Ninja, Qt, ...). També es pot fer servir per compilar, executar proves unitàries (CTest) i generar automàticament paquets per diferents plataformes que van des d'instal·ladors Windows, comprimir resultats en zip o .tar.gz, generar paquets d'instal·lació .deb o .rpm, etc. (CPack)
 
 No li diem *"Compila el fitxer main.cpp"* sinó que el que fem és dir-li *"agafa aquesta llista de codi i genera un executable"* i el que fa és generar les instruccions sobre com es construeix l'executable, no intenta construir-lo ell mateix.
 
