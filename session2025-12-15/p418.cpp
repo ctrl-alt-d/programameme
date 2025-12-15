@@ -21,28 +21,29 @@ void Renumera(){
 
         unsigned int numero;
         string caract;
-        cin >> numero;
 
-        // Si llegim un 0, s'acaba el programa basic
+        // Llegim el primer valor de la línia
+        cin >> numero;
         if (numero == 0){
+            // Si llegim un 0, s'acaba el programa basic
             break;
         }
-
         primerValor.push_back(numero);
+
+        // Llegim el segonvalor
         cin >> caract;
         segundoValor.push_back(caract);
 
-        // si arriba RETURN no llegim tercer valor
+        // Llegim el tercer valor si no és RETURN
         if (caract != "RETURN"){
             cin >> numero;
             tercerValor.push_back(numero);
         } else tercerValor.push_back(0);
     }
 
-    // Preparem el diccionari de valors multiples de 10
+    // Preparem el diccionari:  línia antiga <-> línia nova
     int aMul = 10;
     for (unsigned int &valorsPrin : primerValor){
-
         valors[valorsPrin] = aMul;
         aMul += 10;
     }
