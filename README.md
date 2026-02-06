@@ -1,5 +1,7 @@
 # programameme
 
+* INFO: [Fer servir CMake en projectes C++](./cmake/) per fer-los independents del compilador, del mètode de construcció i del sistema operatiu.
+
 Exercicis programameme
 
 ![meme, error on line 42, facepalm, line 42 is a empty line](./assets/meme1.png)
