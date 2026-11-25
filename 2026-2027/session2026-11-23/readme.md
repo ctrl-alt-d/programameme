@@ -12,7 +12,9 @@ A la segona sessió, ensenyem:
 Juntament amb els exercicis:
 
 https://aceptaelreto.com/problem/statement.php?id=117
+
 https://aceptaelreto.com/problem/statement.php?id=155
+
 https://aceptaelreto.com/problem/statement.php?id=164
 
 [Solució 117](./117.cpp)
